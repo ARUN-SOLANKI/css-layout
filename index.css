@@ -2,12 +2,104 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 10px;
 }
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbarContainer {
   background-color: black;
   max-width: 100%;
+  color: #fff;
+}
+
+.itemContainer {
+  margin: auto;
+  max-width: 144rem;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+  padding: 1rem 0px;
+}
+
+.pages {
+  margin-left: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 10rem);
+  align-items: center;
+}
+.contentContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 6.4rem 1rf 8rem;
+  gap: 2rem;
+  max-width: 144rem;
+  margin: 4rem auto;
+}
+
+.item {
+  /* background-color: #ccc; */
+}
+.page {
+  font-size: 1.8rem;
+  text-align: center;
+}
+.Logo {
+  font-size: 3rem;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  width: 100%;
+  background-color: #ccc;
+  font-size: 3rem;
+}
+
+.title {
+  margin: 1rem 0px;
+  font-size: 2rem;
+  color: #5395cf;
+}
+.paragraph {
+  font-size: 1.5rem;
+}
+
+.item1,
+.item15 {
+  grid-column: 1 / -1;
+}
+.widthText {
+  font-size: 2.2rem;
+}
+.headerText {
+  font-size: 2.2rem;
+}
+.secondryText {
+  font-size: 1.7rem;
+  color: #ccc;
+  margin-left: 1rem;
+}
+.headerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.footerText {
+  font-size: 1.7rem;
+}
+
+.item15 {
+  height: 5rem;
+  border-top: 1px solid #ccc;
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-end;
+}
+.headerContainer {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ccc;
 }
